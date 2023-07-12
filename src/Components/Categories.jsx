@@ -1,5 +1,5 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
-import React from 'react'
 import Button from './Button'
 
 import { FaPen, FaPlus, FaTrash } from "react-icons/fa6"
@@ -16,7 +16,7 @@ function Categories({ dispatch, categories, disabled }) {
                         ariaLabel={`${category['category']}`}
                         role="button"
                         key={category.id}
-                        className="flex flex-col jusitfy-around  gap-3 bg-gray-900 py-4 px-3 hover:scale-110 border-2 border-gray-800 max-w-sm w-full
+                        className="flex flex-col jusitfy-around  gap-3 bg-gray-900 py-4 px-3 hover:scale-105 border-2 border-gray-800 max-w-sm w-full
                         shadow-2xl hover:bg-gray-900 hover:bg-opacity-90 cursor-pointer rounded-md transition-all"
                         onClick={
                             () => dispatch(
