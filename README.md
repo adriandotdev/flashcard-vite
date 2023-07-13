@@ -47,21 +47,21 @@
 
 ## Updating Questions
 
-![Updating Questions](https://github.com/adriandotdev/flashcard-vite/assets/63532775/b8fc729e-d016-43ff-bfd6-e92fae245d66)
+![Updating](https://github.com/adriandotdev/flashcard-vite/assets/63532775/857e89f5-a816-42f2-9f85-cda1600027e0)
 </span>
 
 <span align="center">
 
 ## Deleting Questions
 
-![Deleting Questions](https://github.com/adriandotdev/flashcard-vite/assets/63532775/8634c06e-f38d-46d3-918f-2814b8839f1e)
+![Deleting](https://github.com/adriandotdev/flashcard-vite/assets/63532775/9b5e25a3-2056-49ce-89d8-27c3f332c6be)
 </span>
 
 <span align="center">
 
 ## Viewing Queestions
 
-![Viewing](https://github.com/adriandotdev/flashcard-vite/assets/63532775/3591c864-2e32-42a5-9fd0-798ffadc5ce1)
+![Viewing](https://github.com/adriandotdev/flashcard-vite/assets/63532775/fbf1647e-0c08-41ff-a5ab-8a74f803d1a0)
 </span>
 
 <h1 align="center">What I Learned 💡</h1>
