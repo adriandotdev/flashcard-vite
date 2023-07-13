@@ -55,6 +55,8 @@ function App() {
 
   const [state, dispatch] = useReducer(reducer, initialState)
 
+  document.title = "Flashcards Go";
+
   return (
     <div className="bg-gradient-to-b from-blue-900 to-gray-900 min-h-screen">
 
