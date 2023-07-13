@@ -2,7 +2,7 @@
 
 <p align="center">A CRUD app that allows user to create set of questions based on their created category. Example is the category is about Programming Languages, then they can create set of questions for it. </p>
 
-<h1 align="center">Technologies Used</h1>
+<h1 align="center">Technologies Used 👨🏻‍💻</h1>
 
 <div align="center">
   <span>
@@ -13,7 +13,7 @@
 </span>
 </div>
 
-<h1 align="center">Sample Output</h1>
+<h1 align="center">Sample Output ✔</h1>
 
 <span align="center">
 
@@ -49,3 +49,21 @@
 
 ![Updating Questions](https://github.com/adriandotdev/flashcard-vite/assets/63532775/b8fc729e-d016-43ff-bfd6-e92fae245d66)
 </span>
+
+<span align="center">
+
+## Deleting Questions
+
+![Deleting Questions](https://github.com/adriandotdev/flashcard-vite/assets/63532775/8634c06e-f38d-46d3-918f-2814b8839f1e)
+</span>
+
+<span align="center">
+
+## Viewing Queestions
+
+![Viewing](https://github.com/adriandotdev/flashcard-vite/assets/63532775/3591c864-2e32-42a5-9fd0-798ffadc5ce1)
+</span>
+
+<h1 align="center">What I Learned 💡</h1>
+
+<p>Through this project, I gained understanding on how to handle complex states using useReducer() hook. This hook allows me to contain all of my state, and actions or functionalities that is responsible on the app. Another is how to use TailwindCSS, and ReactJS.</p>
