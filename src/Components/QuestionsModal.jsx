@@ -61,7 +61,7 @@ function QuestionsModal({ dispatch, currentIndex, categories, questions }) {
 
     return (
         <div className="fixed min-h-screen min-w-full top-0 flex items-end justify-center md:items-center bg-black bg-opacity-50">
-            <div ref={divRef} className="transform translate-y-24 md:-translate-y-24 bg-gray-900 px-3 py-2 rounded-lg flex flex-col gap-4 md:w-96 w-full shadow-2xl rounded-tl-2xl rounded-tr-2xl md:rounded-bl-2xl md:rounded-br-2xl">
+            <div ref={divRef} className="transform translate-y-24 md:-translate-y-24 bg-gray-900 px-3 py-2 rounded-lg flex flex-col gap-4 w-full md:max-w-xl shadow-2xl rounded-tl-2xl rounded-tr-2xl md:rounded-bl-2xl md:rounded-br-2xl">
 
                 <section className="self-end cursor-pointer mb-2 mx-2 my-1" onClick={() => dispatch({ type: 'CLOSE_FLASHCARD', payload: { isFlashcardOpen: false } })}>
 
@@ -70,16 +70,16 @@ function QuestionsModal({ dispatch, currentIndex, categories, questions }) {
                     </a>
                 </section>
 
-                {currentQuestions.length > 0 && <div className="bg-gray-100  px-3 flex flex-col justify-between border border-white w-full   rounded-xl" onClick={() => setShow(!isShow)}>
+                {currentQuestions.length > 0 && <div className="bg-gray-100  px-3 flex flex-col justify-between border border-white w-full min-h-[13rem]  rounded-xl md:min-h-[15rem]" onClick={() => setShow(!isShow)}>
 
                     <div className="flex flex-col justify-center mt-3">
 
                         {/* Question */}
-                        <p className="text-center font-mono text-lg font-bold mb-4 break-words select-none">{content.question}</p>
+                        <p className="text-center text-lg md:text-xl font-bold mb-4 break-words select-none">{content.question}</p>
 
                         {
                             isShow ?
-                                <p className="select-none text-center cursor-pointer text-green-700 text-2xl break-word font-bold">{content.answer}</p> : <p className="select-none text-center text-yellow-900 text-2xl break-words cursor-pointer font-bold">Show Answer</p>}
+                                <p className="select-none text-center cursor-pointer text-green-700 text-3xl md:text-4xl break-word font-bold">{content.answer}</p> : <p className="select-none text-center text-yellow-900 text-3xl md:text-4xl break-words cursor-pointer font-bold">Show Answer</p>}
                     </div>
 
                     <div className="py-2 pt-10 px-2 flex justify-evenly">
